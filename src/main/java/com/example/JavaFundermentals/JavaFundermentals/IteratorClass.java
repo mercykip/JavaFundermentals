@@ -12,6 +12,7 @@ public class IteratorClass {
         fruits.add("Kolkata");
         fruits.add("Chandigarh");
         fruits.add("Noida");
+
         // Get the iterator
         Iterator<String> it = fruits.iterator();
         // Print the first item
