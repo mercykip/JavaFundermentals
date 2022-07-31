@@ -1,4 +1,4 @@
-package com.example.JavaFundermentals.JavaFundermentals;
+package com.example.JavaFundermentals.JavaFundermentals.intro;
 
 public class Methods {
     static void bioData(String name) {

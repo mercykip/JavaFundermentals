@@ -1,4 +1,4 @@
-package com.example.JavaFundermentals.JavaFundermentals;
+package com.example.JavaFundermentals.JavaFundermentals.intro;
 
 public class ClassObject {
     int x;// class attribute

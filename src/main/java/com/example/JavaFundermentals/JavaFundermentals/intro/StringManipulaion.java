@@ -1,4 +1,4 @@
-package com.example.JavaFundermentals.JavaFundermentals;
+package com.example.JavaFundermentals.JavaFundermentals.intro;
 
 //1.String is an object that represents character values. It is immutable hence cannot be changed, Whenever we change any string a new instance is created.For mutable
 //Strings we use StringBuffer and StringBuilder classes.

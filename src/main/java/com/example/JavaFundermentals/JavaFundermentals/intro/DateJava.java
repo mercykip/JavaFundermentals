@@ -1,4 +1,4 @@
-package com.example.JavaFundermentals.JavaFundermentals;
+package com.example.JavaFundermentals.JavaFundermentals.intro;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

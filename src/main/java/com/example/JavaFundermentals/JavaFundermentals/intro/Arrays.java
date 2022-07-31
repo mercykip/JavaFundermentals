@@ -1,4 +1,4 @@
-package com.example.JavaFundermentals.JavaFundermentals;
+package com.example.JavaFundermentals.JavaFundermentals.intro;
 
 public class Arrays {
    static String[] fruits = {"mango","orange","banana","apples"};

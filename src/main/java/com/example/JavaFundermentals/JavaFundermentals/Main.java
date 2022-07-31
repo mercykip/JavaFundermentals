@@ -1,5 +1,7 @@
 package com.example.JavaFundermentals.JavaFundermentals;
 
+import com.example.JavaFundermentals.JavaFundermentals.intro.Encapsulation;
+
 public class Main {
     int x;// class attribute
 

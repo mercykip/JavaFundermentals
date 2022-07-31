@@ -1,4 +1,4 @@
-package codiliy;
+package com.example.JavaFundermentals.JavaFundermentals.codiliy;
 
 import java.util.*;
 
