@@ -1,8 +1,8 @@
 package com.example.JavaFundermentals.JavaFundermentals.intro;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.Collections;
+import java.util.Iterator;
 
 public class ArrayListClass {
     public static void main(String[] args) {
@@ -12,6 +12,14 @@ public class ArrayListClass {
         fruits.add("apple");
         fruits.add("orange");
         fruits.add("pineapple");
+
+        //treversing through a list
+        Iterator<String> itr= fruits.iterator();
+
+        while(itr.hasNext()){  //check if iterator has elements
+            System.out.println(itr.next());//printing element and moving to next
+        }
+
         System.out.println(fruits);
         //get
         System.out.println("index 0 :: "+ fruits.get(0));
