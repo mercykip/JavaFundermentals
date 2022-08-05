@@ -3,6 +3,7 @@ package com.example.JavaFundermentals.JavaFundermentals.intro;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Iterator;
+import java.util.ListIterator;
 
 public class ArrayListClass {
     public static void main(String[] args) {
@@ -15,10 +16,19 @@ public class ArrayListClass {
 
         //treversing through a list
         Iterator<String> itr= fruits.iterator();
-
         while(itr.hasNext()){  //check if iterator has elements
-            System.out.println(itr.next());//printing element and moving to next
+            System.out.print(itr.next()+" ");//printing element and moving to next
         }
+
+        ListIterator<String> ls= fruits.listIterator(fruits.size());
+        while(ls.hasPrevious()){
+            String str=ls.previous();
+            System.out.print(str +" ");
+        }
+        fruits.forEach(a->
+                        System.out.print(a +" ")
+                );
+
 
         System.out.println(fruits);
         //get
