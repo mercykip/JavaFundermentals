@@ -10,7 +10,6 @@ public class HashMapClass {
         person.put("FirstName", "Mercy");
         person.put("LastName", "Jemosop");
         person.put("Gender", "Female");
-        person.put("Country", "Kenya");
         person.put("Country", "uganda");
         //get all items
         System.out.println(person);

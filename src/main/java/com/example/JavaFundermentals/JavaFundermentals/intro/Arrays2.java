@@ -1,7 +1,8 @@
 package com.example.JavaFundermentals.JavaFundermentals.intro;
 
-public class Arrays {
+public class Arrays2 {
    static String[] fruits = {"mango","orange","banana","apples"};
+
 
     void loopArrayFor(){
         System.out.println("print all items in an array using a For loop");
@@ -32,7 +33,7 @@ public class Arrays {
     }
 
     public static void main(String[] args) {
-       Arrays arr=new Arrays();
+       Arrays2 arr=new Arrays2();
         arr.loopArrayFor();//for loop
         arr.loopArrayForEach();//for each loop
         arr.multidimentionalArray();
