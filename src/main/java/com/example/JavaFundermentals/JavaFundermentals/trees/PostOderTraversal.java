@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class PostOderTraversal {
 
     public static Node insert(Node root){
-        if(root==null){
+        if(root==null ){
 return root ;
         }
         return root ;
