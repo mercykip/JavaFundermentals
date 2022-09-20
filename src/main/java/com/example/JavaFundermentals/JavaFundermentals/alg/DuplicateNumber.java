@@ -7,7 +7,7 @@ public class DuplicateNumber {
 
         do{
             slow=nums[slow];//move the slow pointer by one
-            fast=nums[nums[fast]];//move fast pointer by two
+            fast=nums[nums[fast]];//move first pointer by two
         }while(slow !=fast);
         //when they meet
         //move the fast pointer to the first position
