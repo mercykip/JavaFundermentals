@@ -1,7 +1,7 @@
 package com.example.JavaFundermentals.JavaFundermentals.trees;
 
 public class BinarySearchTree {
-    Node root;
+         Node root;
 
     BinarySearchTree(){
         root = null;

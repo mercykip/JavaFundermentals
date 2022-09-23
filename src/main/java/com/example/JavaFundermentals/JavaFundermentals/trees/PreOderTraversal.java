@@ -19,7 +19,7 @@ public class PreOderTraversal {
         if(root == null) {
             return new Node(data);
         } else {
-            Node cur;
+             Node cur;
             if(data <= root.data) {
                 cur = insert(root.left, data);
                 root.left = cur;
