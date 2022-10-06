@@ -1,5 +1,7 @@
 package com.example.JavaFundermentals.JavaFundermentals.search;
 
+import java.util.Scanner;
+
 ///Given a sorted array arr[] of n elements, write a function to search a given element x in arr[] and return the index of x in the array
 public class BinarySearch {
     public static int search(int arr[], int x, int low, int high) {
@@ -21,6 +23,9 @@ public class BinarySearch {
     }
 
     public static void main(String[] args) {
+
+        Scanner sc=new Scanner(System.in);
+
         int arr[] = { 2, 3, 4, 10, 40 };
         int n = arr.length;
         int x = 10;
